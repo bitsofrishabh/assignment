@@ -1,0 +1,23 @@
+.logo {
+    border: rebeccapurple;
+    flex-grow: 1;
+    border-style: ridge;
+    padding-left: 30px;
+    padding-top: 10px;
+    height: 50px;
+    background-color: rgb(247, 243, 243);
+    margin-top: 10px;
+}
+
+.logo img {
+    width: 150px;
+    float: left;
+}
+
+.headerOpt {
+    display: flex;
+}
+
+.OuterBorder {
+    flex-grow: 1;
+}

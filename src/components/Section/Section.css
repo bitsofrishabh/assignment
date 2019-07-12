@@ -1,0 +1,183 @@
+table {
+    overflow: scroll;
+}
+
+.dashboard {
+    background-color: rgb(21, 1, 39);
+    height: 650px;
+    width: 15%;
+    text-align: center;
+    flex-grow: 1;
+    display: flex;
+    margin-right: 10px;
+}
+
+.out {
+    display: flex;
+}
+
+.button {
+    color: aliceblue;
+    width: 200px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: ridge;
+    background-color: rgb(93, 63, 119);
+}
+
+.box1 {
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+td {
+    font-weight: 500 !important;
+    border: solid 1px black;
+   
+    padding: 12px;
+    margin-top: 10px;
+}
+
+p {
+    width: 100%;
+    margin: 0;
+     padding:15px;
+     margin-top: 10px;
+}
+
+table {
+    margin: 10px 0;
+    width: 100%;
+    border-collapse: collapse;
+    padding: 1px;
+    margin-top: 10px;
+}
+
+/* Zebra striping */
+tr:nth-of-type(odd) {
+    background: #eee;
+    padding: 1px;
+}
+
+th {
+    background: rgb(236, 227, 227);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    margin-top: 10px;
+
+    border: solid 1px black;
+    
+    padding: 1px;
+}
+
+td,
+th {
+    padding: 1px;
+    border: 1px solid #ccc;
+    text-align: left;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+@media (max-width: 575.98px) {
+    .table-responsive-sm {
+        display: block;
+        width: 100%;
+        
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .table-responsive-sm>.table-bordered {
+        border: 0;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .table-responsive-md {
+        display: block;
+        width: 100%;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .table-responsive-md>.table-bordered {
+        border: 0;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .table-responsive-lg {
+        display: block;
+        width: 100%;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .table-responsive-lg>.table-bordered {
+        border: 0;
+    }
+}
+
+@media (max-width: 1199.98px) {
+    .table-responsive-xl {
+        display: block;
+        width: 100%;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .table-responsive-xl>.table-bordered {
+        border: 0;
+    }
+}
+
+.table-responsive {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.table-responsive>.table-bordered {
+    border: 0;
+}
+
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (min-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+}
